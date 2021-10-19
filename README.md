@@ -1,9 +1,5 @@
 # human-code
 //Richiesta base:- implementare un layout assegnato come esercitazione pomeridiana
-
-
-
-
 Accedo a GitHub
 
 Creo un nuovo repo
@@ -41,4 +37,34 @@ Fase di testing finale
 -	revisione codice, commit.
 :ALTRIMENTI
 -	Push finale e inoltro per correzione
+
+
+
+
+// attraversare un incrocio sulle strisce (c’è il semaforo?)
+Mi fermo al ciglio dell'incrocio
+
+Controllo la presenza del semaforo
+?SE non c'è
+    - controllo la segnaletica
+    - FINCHE' non trovo scrisce pedonali, avanzo sul mio lato del marciapiede
+
+    - controllo la direzione delle auto
+
+    - controllo la presenza di auto in avvicinamento
+    ?SE sono in transito
+        - controllo che si femrino per farmi attraversare
+        ?SE si fermano
+            - attraverso
+        :ALTRIMENTI 
+            - attendo
+    :ALTRIMENTI
+        - attraverso
+:ALTRIMENTI
+    - controllo stato semaforo
+    ?SE è rosso
+        - attendo
+    :ALTRIMENTI
+        - attraverso
+
 
